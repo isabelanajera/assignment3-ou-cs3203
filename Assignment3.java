@@ -1,5 +1,8 @@
 import java.util.Scanner;
 public class Assignment3{
+
+    //METHODS
+
 int sum(int [] array){
 
    
@@ -19,6 +22,7 @@ int product(int [] array){
     }
     return product;
 }
+
 int [] reverse(int [] array){
 int [] reverse = new int[array.length];
 int size = array.length;
@@ -30,6 +34,10 @@ for(int i = 0; i < array.length; i ++){
 }
 return reverse;
 }
+
+
+//MAIN
+
 public static void main(String args[]){Assignment3 assignment3 = new Assignment3();
     Scanner keyboard = new Scanner(System.in);
     
