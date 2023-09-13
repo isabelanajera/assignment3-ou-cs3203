@@ -19,6 +19,15 @@ int product(int [] array){
     }
     return product;
 }
+int [] reverse(int [] array){
+int [] reverse = new int[array.length];
+for(int i = array.length; i > 0; i --){
+    for(int j = 0; j < array.length; j ++){
+    reverse[j] = array[i];
+}
+}
+return reverse;
+}
 public static void main(String args[]){Assignment3 assignment3 = new Assignment3();
     Scanner keyboard = new Scanner(System.in);
     
